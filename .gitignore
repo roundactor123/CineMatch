@@ -1,0 +1,43 @@
+# Python Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Django runtime data
+*.log
+*.tmp
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Large datasets & Pickles (tracked via Git LFS if needed)
+tmdb_5000_credits.csv
+tmdb_5000_movies.csv
+imdb-dataset-of-50k-movie-reviews/
+*IMDB Dataset.csv
+similarity.pkl
+*.pkl
+
+# Keep essential models and dictionaries needed for deployment
+!**/movies_dict.pkl
+!**/review/models/*.pkl
